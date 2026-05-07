@@ -91,7 +91,5 @@ int main() {
         }
     } while (opcao != 0);
 
-    // O free() no final do main precisa de um ponteiro,
-    // mas o ideal é fazer um loop para dar free em todos os nós.
     return 0;
 }
